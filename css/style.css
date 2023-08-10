@@ -1,0 +1,175 @@
+/* CSS para página Home */
+
+body {
+    font-family: 'Montserrat', sans-serif; /*CSS de la tipografía importada de Google Fonts*/
+    width: 1250px;
+    height: 600px;
+    background: #F3F5FC;
+}
+
+header {
+    position: relative;
+    top: 2px;
+}
+.logo {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80px;
+    height: 48px;
+    top: 20px;
+}
+
+main{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.box-left {
+    width: 800px;
+    height: 530px;
+    left: 350px;
+    top: 48px;
+}
+
+.text-area {
+    width: 750px;
+    height: 450px;
+}
+
+#input {
+    background-color: #F3F5FC;
+    border: 0;
+    color: #0A3871;
+    font-size: 32px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 700px;
+    height: 400px; 
+    text-transform: lowercase; /*convierte las letras a minusculas*/
+    resize: none;
+}
+
+#input::placeholder {
+    color: #0A3871;
+    text-align: left;
+}
+
+#input:focus {
+    outline: none;
+    text-align: left;
+}
+
+.warning {
+    height: 20px;
+    display: flex;
+}
+
+.parrafo-aviso {
+    text-align: left;
+    height: 16px;
+    margin: 0;
+    padding-left: 2px;
+}
+
+.buttons {
+    display:flex;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 24px;
+
+    
+}
+
+.button-encriptar {
+    position:relative;
+    width: 250px;
+    height: 55px;
+    left: 20%;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.button-desencriptar {
+    position:relative;
+    width: 250px;
+    height: 55px;
+    left: 20%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.box-right {
+
+    /* White */
+
+    background: white;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+    position: absolute;
+    width: 350px;
+    height: 580px;
+    left: 890px;
+    top: 20px;
+}
+
+.box-right textarea {
+    background: white;
+    position: relative;
+    border: none;
+    width: 330px;
+    height: 450px;
+    left: 5px;
+    top: 40px;
+    font-size: 32px;
+    text-align: left;
+    color: #0A3871;
+    text-transform: lowercase; /*convierte las letras a minusculas*/
+    resize: none;
+}
+
+.copy {
+    position: relative;
+    border: none;
+    width: 330px;
+    height: 60px;
+    left: 5px;
+    top: 50px;
+}
+
+.copiar {
+    position:relative;
+    width: 250px;
+    height: 55px;
+    left: 15%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+footer {
+    top: 550px;
+    height: 10;
+    font-style: italic;
+}
+
+footer p {
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
